@@ -1,0 +1,25 @@
+{
+  "name": "ondrakub/mailerlite",
+  "description": "Nette bridge for MailerLite API",
+  "keywords": ["nette", "mailerlite", "api", "mail"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ondřej Kubíček",
+      "email": "kubon@kubon.cz"
+    }
+  ],
+  "autoload": {
+    "psr-0": {
+      "Ondrakub\\MailerLite\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.0",
+    "nette/di": "^2.3",
+    "mailerlite/mailerlite-api-v2-php-sdk": "~0.2"
+  },
+  "require-dev": {
+    "nette/tester": "~2.0"
+  }
+}
