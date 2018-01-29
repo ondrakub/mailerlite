@@ -1,6 +1,6 @@
 {
   "name": "ondrakub/mailerlite",
-  "description": "Nette bridge for MailerLite API",
+  "description": "Nette extension for MailerLite API",
   "keywords": ["nette", "mailerlite", "api", "mail"],
   "license": "MIT",
   "authors": [
